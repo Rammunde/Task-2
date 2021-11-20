@@ -1,0 +1,85 @@
+button{
+  color: #ffffff;
+  font-weight: 600;
+  float: right;
+  border-radius: 25px;
+  border: none;
+  background-color:#003fff;
+  padding: 12px 10px;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.03;
+ color: #000000;
+ background-color:#ffd800;
+}
+
+.column1{
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row{
+  height: 50px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+background: linear-gradient(90deg, yellow,lightgreen);
+}
+
+.box2{
+  margin-left: 120px;
+}
+
+.avatar{
+  border-radius: 100px;
+}
+
+
+.column3{
+  float: left !important;
+  width: 33% !important;
+}
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+.profile {
+  border: 2px solid rgb(255, 166, 255);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 250px;
+  margin: 20px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 15px;
+  border-radius: 18px;
+  background-color:rgb(155, 245, 245);
+}
+
+.profile:hover{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.email {
+  color: rgb(59, 52, 52);
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size:25px;
+  font-weight: bold;
+}
+.loader{
+  margin-left: 400px;
+  margin-top: 100px;
+  margin-right: 80px;
+}
